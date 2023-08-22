@@ -1,0 +1,13 @@
+:root {
+	color-scheme: light dark;
+}
+
+body {
+	background-color: var(--dark-primary);
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--light-primary);
+	}
+}
