@@ -103,7 +103,7 @@
 }
 
 #summary-visual p {
-	color: var(--clr-support-blue-100);
+	color: var(--clr-support-blue-200);
 }
 
 #summary-reaction svg {
@@ -185,27 +185,27 @@
 	}
 
 	#summary-reaction p {
-		color: var(--clr-support-red-100);
+		color: var(--clr-support-red-300);
 	}
 	
 	#summary-memory p {
-		color: var(--clr-support-yellow-100);
+		color: var(--clr-support-yellow-300);
 	}
 	
 	#summary-verbal p {
-		color: var(--clr-support-green-100);
+		color: var(--clr-support-green-500);
 	}
 	
 	#summary-visual p {
-		color: var(--clr-support-blue-100);
+		color: var(--clr-support-blue-300);
 	}
 	
 	#summary-reaction svg {
-		stroke: var(--clr-support-red-200);
+		stroke: var(--clr-support-red-100);
 	}
 	
 	#summary-memory svg {
-		stroke: var(--clr-support-yellow-200);;
+		stroke: var(--clr-support-yellow-200);
 	}
 	
 	#summary-verbal svg {
