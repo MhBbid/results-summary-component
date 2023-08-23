@@ -49,6 +49,24 @@ button {
 	height: 4rem;
 	border-radius: 100vw;
 	border: none;
+	cursor: pointer;
+}
+
+button:active {
+	scale: 0.975;
+	color: var(--light-accent);
+	transition: all 100ms;
+}
+
+button:not(:active) {
+	scale: 1;
+	transition: all 200ms;
+}
+
+@media (prefers-color-scheme: light) {
+	button:active {
+		color: var(--light-second);
+	}
 }
 
 .card {
@@ -70,6 +88,12 @@ button {
 	border-radius: 1rem;
 	height: 4rem;
 	padding: 1rem;
+}
+
+.flex-group {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 .centered {

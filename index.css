@@ -62,10 +62,15 @@
 	justify-content: center;
 }
 
+.summary-row span {
+	color: var(--light-fullbright);
+}
+
 .summary-row-content {
 	justify-content: space-between;
 	align-items: center;
-	max-width: 37.5rem;
+	padding: 2rem;
+	max-width: 30rem;
 	width: 100%;
 }
 
@@ -83,6 +88,42 @@
 
 #summary-visual {
 	background: linear-gradient(to left, var(--clr-support-blue-400), var(--clr-support-blue-500))
+}
+
+#summary-reaction p {
+	color: var(--clr-support-red-200);
+}
+
+#summary-memory p {
+	color: var(--clr-support-yellow-200);
+}
+
+#summary-verbal p {
+	color: var(--clr-support-green-300);
+}
+
+#summary-visual p {
+	color: var(--clr-support-blue-100);
+}
+
+#summary-reaction svg {
+	stroke: var(--clr-support-red-300);
+}
+
+#summary-memory svg {
+	stroke: var(--clr-support-yellow-300);;
+}
+
+#summary-verbal svg {
+	stroke: var(--clr-support-green-500);;
+}
+
+#summary-visual svg {
+	stroke: var(--clr-support-blue-300);;
+}
+
+#continue-btn {
+	background-color: var(--dark-accent);
 }
 
 @media (max-width: 600px) {
@@ -123,6 +164,10 @@
 		box-shadow: 0.5rem 1rem 3rem var(--light-second);
 	}
 
+	.summary-row h3 {
+		color: var(--light-fullbright);
+	}
+
 	#summary-reaction {
 		background: linear-gradient(to left, var(--clr-support-red-200), var(--clr-support-red-300))
 	}
@@ -137,5 +182,41 @@
 	
 	#summary-visual {
 		background: linear-gradient(to left, var(--clr-support-blue-200), var(--clr-support-blue-300))
+	}
+
+	#summary-reaction p {
+		color: var(--clr-support-red-100);
+	}
+	
+	#summary-memory p {
+		color: var(--clr-support-yellow-100);
+	}
+	
+	#summary-verbal p {
+		color: var(--clr-support-green-100);
+	}
+	
+	#summary-visual p {
+		color: var(--clr-support-blue-100);
+	}
+	
+	#summary-reaction svg {
+		stroke: var(--clr-support-red-200);
+	}
+	
+	#summary-memory svg {
+		stroke: var(--clr-support-yellow-200);;
+	}
+	
+	#summary-verbal svg {
+		stroke: var(--clr-support-green-200);;
+	}
+	
+	#summary-visual svg {
+		stroke: var(--clr-support-blue-200);;
+	}
+
+	#continue-btn {
+		background-color: var(--light-fullbright);
 	}
 } 
